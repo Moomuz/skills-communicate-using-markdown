@@ -18,3 +18,10 @@ Code blocks format the content in a differently-colored space with a monospaced 
 ```
 String myString = "Hello world!";
 ```
+
+# Task List
+Tasks lists are checklists you can add to markdown files or pull requests. They are especially helpful in keeping track of issues in the code. The syntax is slightly different for completed and uncompleted tasks.
+
+- [x] Item 1
+- [ ] Item 2
+- [ ] Item 3
