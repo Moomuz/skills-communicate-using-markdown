@@ -25,3 +25,32 @@ Tasks lists are checklists you can add to markdown files or pull requests. They 
 - [x] Item 1
 - [ ] Item 2
 - [ ] Item 3
+
+
+# Styling Text
+You can also style text to add better readability.
+
+### Bold
+#### Syntax
+<ul>
+  <li>\*\*This is bold text\*\*</li>
+  <li>\_\_This is bold text\_\_</li>
+</ul>
+
+#### Example
+**This is bold text**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
