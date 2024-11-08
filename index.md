@@ -28,18 +28,49 @@ Tasks lists are checklists you can add to markdown files or pull requests. They 
 
 
 # Styling Text
-You can also style text to add better readability.
+You can also style text to add emphasis on certain parts or for better readability.
 
 ### Bold
-#### Syntax
-<ul>
-  <li>\*\*This is bold text\*\*</li>
-  <li>\_\_This is bold text\_\_</li>
-</ul>
+| Syntax | Output |
+| --- | --- |
+| \*\*This is bold text\*\* | **This is bold text** |
+| \_\_This is bold text\_\_ | __This is bold text__ |
 
-#### Example
-**This is bold text**
+### Italic
+| Syntax | Output |
+| --- | --- |
+| \*This is italicized text\* | *This is italicized text* |
+| \_This is italicized text\_ | _This is italicized text_ |
 
+### Strikethrough
+| Syntax | Output |
+| --- | --- |
+| \~\~This text was a mistake\~\~ | ~~This is italicized text~~ |
+
+### Bold and Nested Italic
+| Syntax | Output |
+| --- | --- |
+| \*\*This text is \_really\_ important\*\* | **This text is _really_ important** |
+
+### All Bold and Italic
+| Syntax | Output |
+| --- | --- |
+| \*\*\*But this text is much more important\*\*\* | ***But this text is much more important*** |
+
+### Subscript
+| Syntax | Output |
+| --- | --- |
+| This is \<sub>subscript\</sub> text | This is <sub>subscript</sub> text |
+
+### Superscript
+| Syntax | Output |
+| --- | --- |
+| This is \<sup>superscript\</sup> text | This is <sup>superscript</sup> text |
+
+### Underline
+| Syntax | Output |
+| --- | --- |
+| \<ins>This text is underlined\</ins> | <ins>This text is underlined</ins> |
 
 
 
