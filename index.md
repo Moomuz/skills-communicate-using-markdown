@@ -28,7 +28,7 @@ Tasks lists are checklists you can add to markdown files or pull requests. They 
 
 
 # Styling Text
-You can also style text to add emphasis on certain parts or for better readability.
+You can also style text to emphasize certain parts or for better readability.
 
 ### Bold
 | Syntax | Output |
@@ -36,11 +36,15 @@ You can also style text to add emphasis on certain parts or for better readabili
 | \*\*This is bold text\*\* | **This is bold text** |
 | \_\_This is bold text\_\_ | __This is bold text__ |
 
+You can also select the text and press `Command` + `B` (Mac) or `Ctrl` + `B` (Windows/Linux).
+
 ### Italic
 | Syntax | Output |
 | --- | --- |
 | \*This is italicized text\* | *This is italicized text* |
 | \_This is italicized text\_ | _This is italicized text_ |
+
+You can also select the text and press `Command` + `I` (Mac) or `Ctrl` + `I` (Windows/Linux).
 
 ### Strikethrough
 | Syntax | Output |
@@ -71,6 +75,28 @@ You can also style text to add emphasis on certain parts or for better readabili
 | Syntax | Output |
 | --- | --- |
 | \<ins>This text is underlined\</ins> | <ins>This text is underlined</ins> |
+
+### Quoting Text
+You can use this formatting to point out information you are outsourcing. In the context of discussion posts, you can also use this when quote replying to someone else's message.
+
+#### Syntax
+\> This text is quoted
+#### Output
+> This text is quoted
+
+### Quoting Code
+There are two ways of quoting code:
+ 1. Inline = quoting text within a line of text
+ 2. Code block = quoting multiple lines of code
+
+### Inline 
+Inline quoting of text is especially useful in cases where you want to highlight functions/commands or mention keyboard shortcuts
+
+#### Syntax
+\`git status\`
+#### Output
+`git status`
+
 
 
 
