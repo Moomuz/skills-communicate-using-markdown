@@ -148,6 +148,19 @@ Links can be added to markdown files to direct the user to another webpage. The 
 #### Output
 [Google](https://www.google.com)
 
+# Section Links
+Section links are automatically generated when a header is added to the markdown file. These links can be used within the same markdown file or outside the scope to direct the user to that specific section in the markdown file. <br>
+The naming of the anchor (i.e., the link to the section header) follows a basic set of rules to prevent duplicate links.
+
+## Anchor Naming Conventions
+1. Letters are converted to lowercase
+2. Spaces are replaced with hyphens (-)
+3. Any leading/trailing spaces are removed
+4. Punctuation characters are also removed
+5. Markup styling is removed (e.g. "\*\*bold text\*\*" -> "bold-text")
+6. If 2 or more headers have the same name, their respective anchors will be followed by a hyphen (-) with an incrementing integer (e.g. "...#example-1", "...#example-2", etc.)
+7. 
+
 
 
 
