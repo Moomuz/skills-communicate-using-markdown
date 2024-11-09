@@ -159,7 +159,6 @@ The naming of the anchor (i.e., the link to the section header) follows a basic 
 4. Punctuation characters are also removed
 5. Markup styling is removed (e.g. "\*\*bold text\*\*" -> "bold-text")
 6. If 2 or more headers have the same name, their respective anchors will be followed by a hyphen (-) with an incrementing integer (e.g. "...#example-1", "...#example-2", etc.)
-7. 
 
 
 
