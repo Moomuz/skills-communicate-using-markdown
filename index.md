@@ -148,6 +148,12 @@ Links can be added to markdown files to direct the user to another webpage. The 
 #### Output
 [Google](https://www.google.com)
 
+# Section Links
+Section links are automatically generated when a header is added to the markdown file. These links can be used within the same markdown file or outside the scope to direct the user to that specific section in the markdown file. <br>
+The naming of the anchor (i.e., the link to the section header) follows a basic set of rules to prevent duplicate links. 
+
+
+
 
 
 
