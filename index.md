@@ -139,6 +139,16 @@ This feature enables you to show a color code and its swatch. The currently supp
 | \`rgb(109,5,252)\`| `rgb(109,5,252)` |
 | \`hsl(173,100%,50%)\`| `hsl(173,100%,50%)` |
 
+# Links
+Links can be added to markdown files to direct the user to another webpage. The text within brackets ([]) displays link text, while the content inside parentheses (()) holds the URL.
+
+#### Syntax
+\[Google\]\(https://www.google.com)
+
+#### Output
+[Google](https://www.google.com)
+
+
 
 
 
